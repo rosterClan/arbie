@@ -150,10 +150,8 @@ class sqlDatabase : abstractDatabase
             addPlatform(eventData);
         }
 
-        //if (!checkEntry(entrant, eventData)) {
-            this.addEntry(entrant, eventData);
-            this.print_update(eventData, entrant);
-        //}
+        this.addEntry(entrant, eventData);
+        this.print_update(eventData, entrant);
 
         return true;
     }

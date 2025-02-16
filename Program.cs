@@ -1,7 +1,7 @@
 ﻿
 
 database db = database.Instance;
-db.SetInnerDatabase(new sqlDatabase());
+db.SetInnerDatabase(new sqlLiteDatabase());
 
 platformFactory factory = new concretePlatformFactory();
 
