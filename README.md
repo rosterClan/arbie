@@ -7,7 +7,7 @@
 </div>
 
 ## About The Project
-A few years ago, I discovered arbitrage betting—a strategy that involves placing bets on every possible outcome of an event to secure a guaranteed profit. For example, in a basketball game where both teams offer fixed odds of 50-to-1, placing a one-dollar bet on each team would guarantee a $48 profit. I aimed to develop a system that aggregates horse racing data from various bookmakers in real time to identify arbitrage opportunities. This system emulated the real-time data delivery mechanisms of several bookmakers, which required reverse engineering each bookmaker’s front-end system. I recreated the processes for generating authentication tokens and the API call structures necessary to acquire horse racing data from events across Australia.
+A few years ago, I discovered arbitrage betting—a method where you place bets on all possible outcomes of an event to guarantee a profit. For instance, in a basketball game offering fixed odds of 50-to-1 for both teams, wagering one dollar on each team ensures a profit of $48. Motivated by this, I developed a system to aggregate real-time horse racing data from multiple bookmakers in order to identify arbitrage opportunities. This involved reverse engineering each bookmaker’s front-end to emulate their real-time data delivery, as well as recreating the processes for generating authentication tokens and constructing API calls needed to access horse racing data from events across Australia. As a result, I now have near-instant access to the odds for every entrant in every race at each meeting, enabling me to run simulations and refine a profitable betting strategy.
 
 ### Built With
 
