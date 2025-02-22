@@ -8,19 +8,6 @@
   <h3 align="center">Multi-Bookmaker Real-Time Horse Racing Odds Aggregator</h3>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">-n</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-  </ol>
-</details>
-
 ## About The Project
 A few years ago, I discovered arbitrage betting—a strategy that involves placing bets on every possible outcome of an event to secure a guaranteed profit. For example, in a basketball game where both teams offer fixed odds of 50-to-1, placing a one-dollar bet on each team would guarantee a $48 profit. I aimed to develop a system that aggregates horse racing data from various bookmakers in real time to identify arbitrage opportunities. This system emulated the real-time data delivery mechanisms of several bookmakers, which required reverse engineering each bookmaker’s front-end system. I recreated the processes for generating authentication tokens and the API call structures necessary to acquire horse racing data from events across Australia.
 
