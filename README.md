@@ -41,20 +41,12 @@ Use the `BLANK_README.md` to get started.
 
 ### Built With
 
-[Python-badge]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
-[Python-url]: https://www.python.org/
-<style>
-  .badges {
-    width: 100%;
-    height: 200px;
-    background-color: blue; 
-  }
-</style>
-<div class='badges'>
-
-  
+<div style="background-color: blue; width: 100%; height: 200px; display: flex; align-items: center; justify-content: center;">
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  </a>
 </div>
-* [![Python][Python-badge]][Python-url]
+
 
 
 
