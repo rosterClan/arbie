@@ -1,5 +1,3 @@
-<a id="readme-top"></a>
-
 <br />
 <div align="center">
   <a href="https://shorturl.at/kwkso">
@@ -26,10 +24,7 @@ A few years ago, I discovered arbitrage betting—a strategy that involves placi
   <img src="https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white" alt="c#">
 </a>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Getting Started
-
 This is an example of how you may give instructions on setting this project locally. Clone this repo and then perform the following steps. 
 
 ### Prerequisites
@@ -47,9 +42,7 @@ This is an example of how you may give instructions on setting this project loca
   dotnet run
   ```
 
-<!-- ROADMAP -->
 ## Roadmap
-
 - [x] Add Changelog
 - [x] Add back to top links
 - [ ] Add Additional Templates w/ Examples
@@ -60,12 +53,7 @@ This is an example of how you may give instructions on setting this project loca
 
 <!-- CONTACT -->
 ## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+William Walker - william.sinclair.walker@gmail.com
 
 
 
