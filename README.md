@@ -44,7 +44,9 @@ Use the `BLANK_README.md` to get started.
 <a href="https://www.python.org/">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
 </a>
-
+<a href="https://www.python.org/">
+  <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white" alt="c#">
+</a>
 
 
 
