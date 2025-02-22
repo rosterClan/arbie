@@ -42,16 +42,6 @@ This is an example of how you may give instructions on setting this project loca
   dotnet run
   ```
 
-## Roadmap
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-<!-- CONTACT -->
 ## Contact
 William Walker - william.sinclair.walker@gmail.com
 
