@@ -50,9 +50,9 @@ Use the `BLANK_README.md` to get started.
 <a href="">
   <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="c#">
 </a>
-
-
-
+<a href="">
+  <img src="https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white" alt="c#">
+</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
