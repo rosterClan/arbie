@@ -22,22 +22,7 @@
 </details>
 
 ## About The Project
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+A few years ago, I discovered arbitrage betting—a strategy that involves placing bets on every possible outcome of an event to secure a guaranteed profit. For example, in a basketball game where both teams offer fixed odds of 50-to-1, placing a one-dollar bet on each team would guarantee a $48 profit. I aimed to develop a system that aggregates horse racing data from various bookmakers in real time to identify arbitrage opportunities. This system emulated the real-time data delivery mechanisms of several bookmakers, which required reverse engineering each bookmaker’s front-end system. I recreated the processes for generating authentication tokens and the API call structures necessary to acquire horse racing data from events across Australia.
 
 ### Built With
 
