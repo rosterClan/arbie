@@ -20,12 +20,13 @@ class hydra : abstractRouter
 
         this.valid_connections = new Dictionary<string, List<connection>>();
         this.connections = new List<connection>();
-        string targetImage = "vpn_proxy";
+        string targetImage = "arbie:latest";
 
-        using var client = new DockerClientConfiguration(new Uri("npipe://./pipe/dockerDesktopLinuxEngine")).CreateClient();
+        using var client = new DockerClientConfiguration(new Uri("npipe://./pipe/docker_engine")).CreateClient();
         var containers = client.Containers.ListContainersAsync(new ContainersListParameters{All = true}).GetAwaiter().GetResult();
         var targetContainers = containers.Where(c => c.Image.Contains(targetImage, StringComparison.OrdinalIgnoreCase));
 
+        bool length_error = true;
 
         foreach (var container in targetContainers) {
             string connectionId = container.ID;
@@ -36,6 +37,11 @@ class hydra : abstractRouter
                 break;
             }
             this.connections.Add(new remote_con(connectionId, container_port, loc));
+            length_error = false; 
+        }
+
+        if (length_error) {
+            throw new Exception("No proxy containers could be found. Please setup said proxy containers.");
         }
         this.connections.Add(new local_con("na", -1, "local"));
     }

@@ -1,7 +1,7 @@
 version: "3"
 services:
   ovpn_proxy_melbourne:
-    image: docker.io/library/vpn_proxy
+    image: arbie:latest
     cap_add:
       - NET_ADMIN
     devices:
@@ -22,7 +22,7 @@ services:
     restart: always
 
   ovpn_proxy_brisbane:
-    image: docker.io/library/vpn_proxy
+    image: arbie:latest
     cap_add:
       - NET_ADMIN
     devices:
@@ -43,7 +43,7 @@ services:
     restart: always
 
   ovpn_proxy_adelaide:
-    image: docker.io/library/vpn_proxy
+    image: arbie:latest
     cap_add:
       - NET_ADMIN
     devices:
@@ -64,7 +64,7 @@ services:
     restart: always
 
   ovpn_proxy_perth:
-    image: docker.io/library/vpn_proxy
+    image: arbie:latest
     cap_add:
       - NET_ADMIN
     devices:
@@ -85,7 +85,7 @@ services:
     restart: always
 
   ovpn_proxy_auckland:
-    image: docker.io/library/vpn_proxy
+    image: arbie:latest
     cap_add:
       - NET_ADMIN
     devices:
@@ -106,7 +106,7 @@ services:
     restart: always
 
   ovpn_proxy_manchester:
-    image: docker.io/library/vpn_proxy
+    image: arbie:latest
     cap_add:
       - NET_ADMIN
     devices:
@@ -127,7 +127,7 @@ services:
     restart: always
 
   ovpn_proxy_london:
-    image: docker.io/library/vpn_proxy
+    image: arbie:latest
     cap_add:
       - NET_ADMIN
     devices:
@@ -148,7 +148,7 @@ services:
     restart: always
 
   ovpn_proxy_glasgow:
-    image: docker.io/library/vpn_proxy
+    image: arbie:latest
     cap_add:
       - NET_ADMIN
     devices:
@@ -169,7 +169,7 @@ services:
     restart: always
 
   ovpn_proxy_edinburgh:
-    image: docker.io/library/vpn_proxy
+    image: arbie:latest
     cap_add:
       - NET_ADMIN
     devices:

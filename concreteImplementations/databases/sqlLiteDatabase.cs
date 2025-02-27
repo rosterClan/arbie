@@ -12,7 +12,7 @@ class sqlLiteDatabase : abstractDatabase
     private SqliteConnection connection; 
 
     public sqlLiteDatabase() {
-        this.connection = new SqliteConnection("Data Source=C:\\Users\\William\\Desktop\\PersonalProjects\\Arbie\\arbie 4.2\\Arbie\\concreteImplementations\\databases\\liteDB.db");
+        this.connection = new SqliteConnection("Data Source=D:\\shared\\PersonalProjects\\Arbie\\arbie 4.2\\Arbie\\concreteImplementations\\databases\\liteDB.db");
     }
 
     private bool existingMatch(eventDTO eventData) {

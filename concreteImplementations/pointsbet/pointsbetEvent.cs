@@ -74,7 +74,6 @@ class pointsbetEvent : Event
             var initMessage = new ArraySegment<byte>(Encoding.UTF8.GetBytes("{\"protocol\":\"json\",\"version\":1}"));
             await ws.SendAsync(initMessage, WebSocketMessageType.Text, true, CancellationToken.None);
             await setSocketWatch(connectionId, raceId);
-            Console.WriteLine("Connected");
 
             while (this.status == 0){
                 var pingMessage = new ArraySegment<byte>(Encoding.UTF8.GetBytes("{\"type\":6}\u001E"));
@@ -119,10 +118,6 @@ class pointsbetEvent : Event
         
         JsonElement ele = JsonDocument.Parse(data).RootElement;
         if (ele.GetProperty("type").ToString() == "1") {
-            using (StreamWriter sw = File.AppendText("C:\\Users\\William\\Desktop\\PersonalProjects\\Arbie\\arbie 4.2\\Arbie\\concreteImplementations\\pointsbet\\records.json")) {
-                sw.WriteLine(ele.ToString());
-            }	
-
             JsonElement arguments = ele.GetProperty("arguments")[0];
             JsonElement payload = arguments.GetProperty("payload");
                 

@@ -4192,26 +4192,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\William\\.nuget\\packages\\": {}
+    "C:\\Users\\willi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\William\\Desktop\\PersonalProjects\\Arbie\\arbie 4.2\\Arbie\\Arbie.csproj",
+      "projectUniqueName": "D:\\shared\\PersonalProjects\\Arbie\\arbie 4.2\\Arbie\\Arbie.csproj",
       "projectName": "Arbie",
-      "projectPath": "c:\\Users\\William\\Desktop\\PersonalProjects\\Arbie\\arbie 4.2\\Arbie\\Arbie.csproj",
-      "packagesPath": "C:\\Users\\William\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\William\\Desktop\\PersonalProjects\\Arbie\\arbie 4.2\\Arbie\\obj\\",
+      "projectPath": "D:\\shared\\PersonalProjects\\Arbie\\arbie 4.2\\Arbie\\Arbie.csproj",
+      "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
+      "outputPath": "D:\\shared\\PersonalProjects\\Arbie\\arbie 4.2\\Arbie\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\William\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4228,9 +4226,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net9.0": {
@@ -4273,20 +4271,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'SharpCompress' 0.23.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-jp7f-grcv-6mjf",
-      "libraryId": "SharpCompress",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  }
 }

@@ -44,10 +44,6 @@ class boombetEvent : Event
             JsonElement odds = runners[i].GetProperty("odds");
             string horse_name = runners[i].GetProperty("name").ToString();
 
-            if (horse_name == "Justhandy") {
-                Console.WriteLine("Break");
-            }
-
             string scratched_str = runners[i].GetProperty("scratchedDateTime").ToString();
             double win_odds = -1;
             bool scratched = !scratched_str.Equals("");
