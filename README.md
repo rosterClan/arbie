@@ -28,6 +28,9 @@ A few years ago, I discovered arbitrage betting—a method where you place bets 
 This is an example of how you may give instructions on setting this project locally. Clone this repo and then perform the following steps. 
 
 ### Prerequisites
+
+https://dotnet.microsoft.com/en-us/download
+
 1: Clone the repo
 2: Install required librarys
   ```sh
