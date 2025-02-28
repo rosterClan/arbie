@@ -41,27 +41,6 @@ I decided to download configuration files for multiple VPN locations, associatin
   <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="c#">
 </a>
 
-## Getting Started
-This is an example of how you may give instructions on setting this project locally. Clone this repo and then perform the following steps. 
-
-### Prerequisites
-
-https://dotnet.microsoft.com/en-us/download
-
-1: Clone the repo
-2: Install required librarys
-  ```sh
-  dotnet restore
-  ```
-3: Build the project
-  ```sh
-  dotnet build
-  ```
-4: Run the project
-  ```sh
-  dotnet run
-  ```
-
 ## Contact
 William Walker - william.sinclair.walker@gmail.com
 
