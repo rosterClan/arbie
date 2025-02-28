@@ -40,9 +40,6 @@ I decided to download configuration files for multiple VPN locations, associatin
 <a href="">
   <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="c#">
 </a>
-<a href="">
-  <img src="https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white" alt="c#">
-</a>
 
 ## Getting Started
 This is an example of how you may give instructions on setting this project locally. Clone this repo and then perform the following steps. 
