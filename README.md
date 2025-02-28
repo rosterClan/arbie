@@ -5,7 +5,7 @@
   </a>
   <h3 align="center">Multi-Bookmaker Real-Time Horse Racing Odds Aggregator</h3>
   <a align="center" href="https://youtu.be/8SxA47AKwcE">
-    <p>FOR DEMONSTRATION VIDEO</p>
+    <p>DEMONSTRATION VIDEO</p>
   </a>
 </div>
 
