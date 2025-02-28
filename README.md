@@ -9,6 +9,14 @@
   </a>
 </div>
 
+## Built With
+<a href="">
+  <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white" alt="c#">
+</a>
+<a href="">
+  <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="c#">
+</a>
+
 ## About The Project 
 A few years ago, I discovered arbitrage betting—a method where you place bets on all possible outcomes of an event to guarantee a profit. For instance, in a basketball game offering fixed odds of 50-to-1 for both teams, wagering one dollar on each team ensures a profit of $48. Motivated by this, I developed a system to aggregate real-time horse racing data from multiple bookmakers to identify arbitrage opportunities.
 
@@ -31,15 +39,6 @@ Bookmakers typically don’t want users to scrape large quantities of their publ
 There are proxy services that allow for traffic to be distributed in this manner, but they are expensive. Using a VPN is a more affordable alternative; however, most VPN services limit you to communicating through a single tunnel, which will eventually be rate-limited as well. Fortunately, many VPN services allow connections over the OpenVPN standard using account-associated configuration files. Furthermore, the number of connections that can be made using this OpenVPN standard is not limited.
 
 I decided to download configuration files for multiple VPN locations, associating each with a Docker container running a proxy server that routes outgoing traffic through an OpenVPN connection. I can then direct traffic to these containers, enabling an effective and affordable distribution of traffic across multiple distinct IP addresses. Look in the concreteImplementations/re-router folder to see relevant files.
-
-### Built With
-
-<a href="">
-  <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white" alt="c#">
-</a>
-<a href="">
-  <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="c#">
-</a>
 
 ## Contact
 William Walker - william.sinclair.walker@gmail.com
