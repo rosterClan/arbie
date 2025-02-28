@@ -1,6 +1,6 @@
 <br />
 <div align="center">
-  <a href="https://shorturl.at/kwkso">
+  <a href="https://drive.google.com/uc?export=view&id=1OE1wadZnDNvwY7H572cv8JlR9xk-Df4Y">
     <img src="https://drive.google.com/uc?export=view&id=1OE1wadZnDNvwY7H572cv8JlR9xk-Df4Y" alt="Logo">
   </a>
   <h3 align="center">Multi-Bookmaker Real-Time Horse Racing Odds Aggregator</h3>
