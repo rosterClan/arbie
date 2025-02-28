@@ -10,10 +10,10 @@
 A few years ago, I discovered arbitrage betting—a method where you place bets on all possible outcomes of an event to guarantee a profit. For instance, in a basketball game offering fixed odds of 50-to-1 for both teams, wagering one dollar on each team ensures a profit of $48. Motivated by this, I developed a system to aggregate real-time horse racing data from multiple bookmakers to identify arbitrage opportunities.
 
 #### Fully Supported Platforms
-- Boombet
-- colossalbet
-- pointsbet
-- sportsbett
+- BoomBet
+- Colossalbet
+- PointsBet
+- Sportsbet
 
 ## Challenges
 ### Data Aqusition
