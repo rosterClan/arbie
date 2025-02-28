@@ -4,11 +4,11 @@
     <img src="https://drive.google.com/uc?export=view&id=1OE1wadZnDNvwY7H572cv8JlR9xk-Df4Y" alt="Logo">
   </a>
   <h3 align="center">Multi-Bookmaker Real-Time Horse Racing Odds Aggregator</h3>
+  <a align="center" href="https://youtu.be/8SxA47AKwcE">
+    <p>FOR DEMONSTRATION VIDEO</p>
+  </a>
 </div>
 
-<a style="text-align:center;" href="https://youtu.be/8SxA47AKwcE">
-  <p>CLICK HERE FOR DEMONSTRATION VIDEO</p>
-</a>
 ## About The Project 
 A few years ago, I discovered arbitrage betting—a method where you place bets on all possible outcomes of an event to guarantee a profit. For instance, in a basketball game offering fixed odds of 50-to-1 for both teams, wagering one dollar on each team ensures a profit of $48. Motivated by this, I developed a system to aggregate real-time horse racing data from multiple bookmakers to identify arbitrage opportunities.
 
