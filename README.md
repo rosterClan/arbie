@@ -1,7 +1,7 @@
 <br />
 <div align="center">
   <a href="https://youtu.be/8SxA47AKwcE">
-    <img src="https://drive.google.com/uc?export=view&id=1OE1wadZnDNvwY7H572cv8JlR9xk-Df4Y" alt="Logo">
+    <img width="100px" src="https://drive.google.com/uc?export=view&id=1OE1wadZnDNvwY7H572cv8JlR9xk-Df4Y" alt="Logo">
   </a>
   <h3 align="center">Multi-Bookmaker Real-Time Horse Racing Odds Aggregator</h3>
   <a align="center" href="https://youtu.be/8SxA47AKwcE">
