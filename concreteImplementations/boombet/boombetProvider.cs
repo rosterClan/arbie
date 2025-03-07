@@ -26,7 +26,7 @@ class boombetProvider : eventProvider
                 DateTime jump_time = current_utc.AddSeconds(int.Parse(start_time_int_str));
                 int round = int.Parse(round_str);
 
-                events.Add(new eventDTO(name, meeting_name, round, jump_time, venue));
+                events.Add(new eventDTO(name, meeting_name, round, jump_time, "Australia/Sydney", venue));
             }
         }
 

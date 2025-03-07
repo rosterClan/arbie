@@ -11,7 +11,7 @@ class sqlDatabase : abstractDatabase
     private string host = "127.0.0.1";
     private string database = "arbie_4.2";
     private string user = "postgres";
-    private string password = "test";
+    private string password = "admin";
     private string connection_string;
 
     public sqlDatabase() {

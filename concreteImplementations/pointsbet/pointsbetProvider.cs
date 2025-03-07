@@ -23,7 +23,9 @@ class pointsbetProvider : eventProvider
             if (country.Equals("AUS")) {
                 string start_time_str = meet.GetProperty("meetingStartDateTimeUtc").ToString();
                 string race_type_str = meet.GetProperty("racingType").ToString();
-                DateTime start_time = DateTime.Parse(start_time_str);
+
+                DateTime utc_time = DateTime.Parse(start_time_str);
+                DateTime start_time = utc_time.AddHours(-11);
 
                 if (!race_type_str.Equals("1")) {
                     continue;
@@ -36,7 +38,7 @@ class pointsbetProvider : eventProvider
                     string round_str = race.GetProperty("raceNumber").ToString();
                     int round = int.Parse(round_str);
 
-                    entities.Add(new eventDTO("pointsbet", venue, round, start_time, race));
+                    entities.Add(new eventDTO("pointsbet", venue, round, start_time, "Australia/Sydney", race));
                 }
 
             }

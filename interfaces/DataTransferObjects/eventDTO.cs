@@ -14,13 +14,17 @@ class eventDTO {
     private string hash_id; 
     private JsonElement jsonObj;
 
-    public eventDTO(string platform, string venue, int round, DateTime start_time, JsonElement jsonObj) {
+    public eventDTO(string platform, string venue, int round, DateTime start_time, string time_zone, JsonElement jsonObj) {
         this.platform_name = RemoveSpecialCharacters(platform);
         this.venue = RemoveSpecialCharacters(venue);
         this.round = round;
+
         this.start_time = start_time;
+        //this.start_time
+
         this.jsonObj = jsonObj;
-        this.hash_id = this.computeHashString($"{this.platform_name}{this.venue}{this.round}{this.start_time.ToString()}");
+        string str_datetime = this.start_time.ToString("d");
+        this.hash_id = this.computeHashString($"{this.platform_name}{this.venue}{this.round}{str_datetime}");
     }
 
     private string RemoveSpecialCharacters(string input)

@@ -41,7 +41,7 @@ class sportsbettProvider : eventProvider
                 int time_stamp = (int)events[eventIdx].GetProperty("startTime").GetInt64();
                 DateTime start_time = DateTimeOffset.FromUnixTimeSeconds(time_stamp).UtcDateTime; 
 
-                eventDetails.Add(new eventDTO("sportsbett", venue, race_number, start_time, events[eventIdx]));
+                eventDetails.Add(new eventDTO("sportsbett", venue, race_number, start_time, "Australia/Sydney", events[eventIdx]));
             }
         }
 

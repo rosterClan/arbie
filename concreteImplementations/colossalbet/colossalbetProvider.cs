@@ -32,7 +32,7 @@ class colossalbetProvider : eventProvider
                 DateTime start_time = DateTime.ParseExact(start_time_str, "yyyy-MM-ddTHH:mm:ss", CultureInfo.InvariantCulture);
                 int round = int.Parse(round_str);
 
-                eventDTO new_event = new eventDTO("colossalbet", venue_str, round, start_time, race);
+                eventDTO new_event = new eventDTO("colossalbet", venue_str, round, start_time, "Australia/Sydney", race);
                 eventDetails.Add(new_event);
             }
         }
