@@ -1,10 +1,11 @@
+
 <br />
 <div align="center">
-  <a href="https://www.youtube.com/watch?v=fyFujCkOIWc">
+  <a href="https://youtu.be/R6f8vfJGcVI">
     <img width="70%" src="https://drive.google.com/uc?export=view&id=1OE1wadZnDNvwY7H572cv8JlR9xk-Df4Y" alt="Logo">
   </a>
   <h3 align="center">Multi-Bookmaker Real-Time Horse Racing Odds Aggregator</h3>
-  <a align="center" href="https://www.youtube.com/watch?v=fyFujCkOIWc">
+  <a align="center" href="https://youtu.be/R6f8vfJGcVI">
     <p>DEMONSTRATION VIDEO</p>
   </a>
 </div>
